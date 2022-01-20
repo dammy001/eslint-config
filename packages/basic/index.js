@@ -81,6 +81,8 @@ module.exports = {
   'no-console': ['error', { allow: ['warn', 'error'] }],
   'no-unused-vars': 'warn',
   'no-param-reassign': 'off',
+  'no-shadow': 'off',
+  'no-return-await': 'error',
   indent: [
    'error',
    2,
@@ -92,5 +94,9 @@ module.exports = {
   'import/no-mutable-exports': 'error',
   'import/no-unresolved': 'off',
   'import/no-absolute-path': 'off',
+  'import/extensions': 'off',
+  'import/no-extraneous-dependencies': 'off',
+
+  'global-require': 'off',
  },
 };
