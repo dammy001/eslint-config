@@ -1,37 +1,37 @@
 {
-    "name": "@damilaredev/eslint-config-basic",
-    "version": "0.0.1",
-    "description": "",
-    "keywords": [],
-    "license": "MIT",
-    "author": "Damilare Anjorin",
-    "files": [
-      "index.js"
-    ],
-    "main": "index.js",
-    "scripts": {
-      "lint": "eslint . --config=index.js"
-    },
-    "peerDependencies": {
-      "eslint": ">=7.4.0"
-    },
-    "dependencies": {
-      "eslint-config-standard": "17.0.0-0",
-      "eslint-plugin-eslint-comments": "^3.2.0",
-      "eslint-plugin-html": "^6.2.0",
-      "eslint-plugin-import": "^2.25.4",
-      "eslint-plugin-jsonc": "^2.0.0",
-      "eslint-plugin-n": "^14.0.0",
-      "eslint-plugin-promise": "^6.0.0",
-      "eslint-plugin-unicorn": "^40.0.0",
-      "eslint-plugin-yml": "^0.12.0",
-      "jsonc-eslint-parser": "^2.1.0",
-      "yaml-eslint-parser": "^0.5.0"
-    },
-    "devDependencies": {
-      "eslint": "^8.6.0"
-    },
-    "publishConfig": {
-      "access": "public"
-    }
+  "name": "@damilaredev/eslint-config-basic",
+  "version": "0.0.2",
+  "description": "",
+  "keywords": [],
+  "license": "MIT",
+  "author": "Damilare Anjorin",
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint . --config=index.js"
+  },
+  "peerDependencies": {
+    "eslint": ">=7.4.0"
+  },
+  "dependencies": {
+    "eslint-config-standard": "17.0.0-0",
+    "eslint-plugin-eslint-comments": "^3.2.0",
+    "eslint-plugin-html": "^6.2.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-jsonc": "^2.0.0",
+    "eslint-plugin-n": "^14.0.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-unicorn": "^40.0.0",
+    "eslint-plugin-yml": "^0.12.0",
+    "jsonc-eslint-parser": "^2.1.0",
+    "yaml-eslint-parser": "^0.5.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.6.0"
+  },
+  "publishConfig": {
+    "access": "public"
   }
+}
