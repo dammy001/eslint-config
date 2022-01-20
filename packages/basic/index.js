@@ -67,6 +67,7 @@ module.exports = {
   'require-await': 'off',
   'no-return-assign': 'off',
   'operator-linebreak': ['error', 'before'],
+  'no-use-before-define': 'off',
 
   'unicorn/no-array-instanceof': 'error',
   'unicorn/error-message': 'error',

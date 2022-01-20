@@ -22,6 +22,11 @@ module.exports = {
   '@typescript-eslint/prefer-default-export': 'off',
   '@typescript-eslint/explicit-module-boundary-types': 'off',
   '@typescript-eslint/no-empty-function': 'off',
+  '@typescript-eslint/indent': ['error', 2],
+  'no-redeclare': 'off',
+  '@typescript-eslint/no-redeclare': 'error',
+
+  'no-redeclare': 'off',
 
   '@typescript-eslint/prefer-ts-expect-error': 'error',
   '@typescript-eslint/no-shadow': ['error'],

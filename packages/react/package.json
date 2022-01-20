@@ -7,15 +7,8 @@
         "test": "echo \"Error: no test specified\" && exit 1",
         "lint": "eslint . --config=index.js"
     },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/dammy001/eslint-config.git"
-    },
     "author": "Damilare Anjorin",
     "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/dammy001/eslint-config/issues"
-    },
     "peerDependencies": {
         "eslint": ">=7.4.0"
     },
