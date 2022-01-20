@@ -1,0 +1,35 @@
+{
+    "name": "@damilaredev/eslint-config-react",
+    "version": "0.0.1",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "lint": "eslint . --config=index.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/dammy001/eslint-config.git"
+    },
+    "author": "Damilare Anjorin",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/dammy001/eslint-config/issues"
+    },
+    "peerDependencies": {
+      "eslint": ">=7.4.0"
+    },
+    "dependecies": {
+        "@damilardev/eslint-config-typescript": "^0.0.1",
+        "eslint-plugin-react": "^7.28.0",
+        "eslint-plugin-react-hooks": "^4.3.0"
+    },
+    "devDependencies": {
+        "eslint": "^8.6.0",
+        "react": "^17.0.2",
+        "typescript": "^4.5.4"
+    },
+    "publishConfig": {
+        "access": "public"
+    }
+}

@@ -1,0 +1,48 @@
+{
+  "name": "@damilaredev/eslint-config",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dammy001/eslint-config.git"
+  },
+  "author": "Damilare Anjorin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dammy001/eslint-config/issues"
+  },
+  "peerDependencies": {
+    "eslint": ">=7.4.0"
+  },
+  "dependencies": {
+    "@damilaredev/eslint-config-react": "^0.0.1",
+    "@damilaredev/eslint-config-vue": "^0.0.1",
+    "@typescript-eslint/eslint-plugin": "^5.10.0",
+    "@typescript-eslint/parser": "^5.10.0",
+    "eslint-config-standard": "17.0.0-0",
+    "eslint-plugin-eslint-comments": "^3.2.0",
+    "eslint-plugin-html": "^6.2.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-jsonc": "^2.0.0",
+    "eslint-plugin-n": "^14.0.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-unicorn": "^40.0.0",
+    "eslint-plugin-vue": "8.3.0",
+    "eslint-plugin-yml": "^0.12.0",
+    "jsonc-eslint-parser": "^2.1.0",
+    "yaml-eslint-parser": "^0.5.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.6.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
