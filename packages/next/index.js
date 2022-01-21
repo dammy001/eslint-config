@@ -1,6 +1,8 @@
 module.exports = {
  extends: [
   '@damilaredev/eslint-config-react',
-  '@damilaredev/eslint-config-vue',
+  '@damilaredev/eslint-config-typescript',
+  'next/core-web-vitals',
  ],
+ rules: {},
 };
