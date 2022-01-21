@@ -7,16 +7,17 @@
         "index.js"
     ],
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/dammy001/eslint-config.git"
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "lint": "eslint . --config=index.js"
     },
     "author": "Damilare Anjorin",
     "license": "MIT",
     "bugs": {
         "url": "https://github.com/dammy001/eslint-config/issues"
+    },
+    "dependencies": {
+        "@damilaredev/eslint-config-typescript": "^0.0.3",
+        "eslint-plugin-vue": "^8.3.0"
     },
     "peerDependencies": {
         "eslint": ">=7.4.0"

@@ -9,17 +9,15 @@
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/dammy001/eslint-config.git"
-    },
     "author": "Damilare Anjorin",
     "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/dammy001/eslint-config/issues"
+    "dependencies": {
+        "@damilaredev/eslint-config-typescript": "^0.0.3",
+        "eslint-config-next": "12.0.8"
     },
     "peerDependencies": {
-        "eslint": ">=7.4.0"
+        "eslint": ">=7.4.0",
+        "next": ">=10.2.0"
     },
     "devDependencies": {
         "eslint": "8.7.0"
