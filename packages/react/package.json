@@ -1,6 +1,6 @@
 {
     "name": "@damilaredev/eslint-config-react",
-    "version": "0.0.6",
+    "version": "0.0.7",
     "description": "",
     "main": "index.js",
     "scripts": {
@@ -13,7 +13,7 @@
         "eslint": ">=7.4.0"
     },
     "dependencies": {
-        "@damilaredev/eslint-config-typescript": "^0.0.6",
+        "@damilaredev/eslint-config-typescript": "^0.0.7",
         "eslint-plugin-react": "^7.28.0",
         "eslint-plugin-react-hooks": "^4.3.0"
     },
