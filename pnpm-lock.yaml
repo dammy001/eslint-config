@@ -30,7 +30,7 @@ importers:
       eslint-plugin-promise: ^6.0.0
       eslint-plugin-unicorn: ^40.0.0
       eslint-plugin-vue: 8.4.0
-      eslint-plugin-yml: ^0.12.0
+      eslint-plugin-yml: ^0.13.0
       jsonc-eslint-parser: ^2.1.0
       yaml-eslint-parser: ^0.5.0
     dependencies:
@@ -47,7 +47,7 @@ importers:
       eslint-plugin-promise: 6.0.0_eslint@8.7.0
       eslint-plugin-unicorn: 40.1.0_eslint@8.7.0
       eslint-plugin-vue: 8.4.0_eslint@8.7.0
-      eslint-plugin-yml: 0.12.0_eslint@8.7.0
+      eslint-plugin-yml: 0.13.0_eslint@8.7.0
       jsonc-eslint-parser: 2.1.0
       yaml-eslint-parser: 0.5.0
     devDependencies:
@@ -64,7 +64,7 @@ importers:
       eslint-plugin-n: ^14.0.0
       eslint-plugin-promise: ^6.0.0
       eslint-plugin-unicorn: ^40.0.0
-      eslint-plugin-yml: ^0.12.0
+      eslint-plugin-yml: ^0.13.0
       jsonc-eslint-parser: ^2.1.0
       yaml-eslint-parser: ^0.5.0
     dependencies:
@@ -76,7 +76,7 @@ importers:
       eslint-plugin-n: 14.0.0_eslint@8.7.0
       eslint-plugin-promise: 6.0.0_eslint@8.7.0
       eslint-plugin-unicorn: 40.1.0_eslint@8.7.0
-      eslint-plugin-yml: 0.12.0_eslint@8.7.0
+      eslint-plugin-yml: 0.13.0_eslint@8.7.0
       jsonc-eslint-parser: 2.1.0
       yaml-eslint-parser: 0.5.0
     devDependencies:
@@ -2381,8 +2381,8 @@ packages:
       - supports-color
     dev: false
 
-  /eslint-plugin-yml/0.12.0_eslint@8.7.0:
-    resolution: {integrity: sha512-aS82M+diohZTusadiByzh/bKDrfi+Y6VBQkD3ym/7JH+KF9WUB9qKCizLfTaCACwtRrHpqaLz3G8GKmslshyiw==}
+  /eslint-plugin-yml/0.13.0_eslint@8.7.0:
+    resolution: {integrity: sha512-rZvdnhe28jIbgSIZo3qYqkl9hKslyTDfMwqIGDzz873gxghzBw0yeFG+P7sMfOkFfpqwJzZy3IKe2cIiCp4FrA==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     peerDependencies:
       eslint: '>=6.0.0'
