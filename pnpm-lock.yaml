@@ -21,7 +21,7 @@ importers:
       '@typescript-eslint/eslint-plugin': ^5.10.0
       '@typescript-eslint/parser': ^5.10.0
       eslint: 8.8.0
-      eslint-config-standard: 17.0.0-0
+      eslint-config-standard: 17.0.0-1
       eslint-plugin-eslint-comments: ^3.2.0
       eslint-plugin-html: ^6.2.0
       eslint-plugin-import: ^2.25.4
@@ -38,7 +38,7 @@ importers:
       '@damilaredev/eslint-config-vue': link:../vue
       '@typescript-eslint/eslint-plugin': 5.10.0_b38207c5f69fd49ae45ebdea42f2b4a0
       '@typescript-eslint/parser': 5.10.0_eslint@8.8.0+typescript@4.5.5
-      eslint-config-standard: 17.0.0-0_d98185a972f50d26baaf376f983a6b27
+      eslint-config-standard: 17.0.0-1_d98185a972f50d26baaf376f983a6b27
       eslint-plugin-eslint-comments: 3.2.0_eslint@8.8.0
       eslint-plugin-html: 6.2.0
       eslint-plugin-import: 2.25.4_eslint@8.8.0
@@ -56,7 +56,7 @@ importers:
   packages/basic:
     specifiers:
       eslint: 8.8.0
-      eslint-config-standard: 17.0.0-0
+      eslint-config-standard: 17.0.0-1
       eslint-plugin-eslint-comments: ^3.2.0
       eslint-plugin-html: ^6.2.0
       eslint-plugin-import: ^2.25.4
@@ -68,7 +68,7 @@ importers:
       jsonc-eslint-parser: ^2.1.0
       yaml-eslint-parser: ^0.5.0
     dependencies:
-      eslint-config-standard: 17.0.0-0_d98185a972f50d26baaf376f983a6b27
+      eslint-config-standard: 17.0.0-1_d98185a972f50d26baaf376f983a6b27
       eslint-plugin-eslint-comments: 3.2.0_eslint@8.8.0
       eslint-plugin-html: 6.2.0
       eslint-plugin-import: 2.25.4_eslint@8.8.0
@@ -2141,8 +2141,8 @@ packages:
       - supports-color
     dev: false
 
-  /eslint-config-standard/17.0.0-0_d98185a972f50d26baaf376f983a6b27:
-    resolution: {integrity: sha512-sf9udec8fkLTnH82SmhZQ3E31e4eJaMW09Mt9fbN3OccXFtvSSbGrltpQgGFVooGHoIdiMzDfp6ZNFd+I6Ob+w==}
+  /eslint-config-standard/17.0.0-1_d98185a972f50d26baaf376f983a6b27:
+    resolution: {integrity: sha512-aqRG58dqoBNfOLN+PsitasxmW+W9Os4oQrx081B16T4E4WogsSbpUL6hnKSnyv35sSRYA2XjBtKMOrUboL6jgw==}
     peerDependencies:
       eslint: ^8.0.1
       eslint-plugin-import: ^2.25.2
