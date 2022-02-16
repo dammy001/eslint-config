@@ -1,6 +1,6 @@
 {
     "name": "@damilaredev/eslint-config-next",
-    "version": "0.0.7",
+    "version": "0.0.8",
     "description": "",
     "main": "index.js",
     "files": [
@@ -12,7 +12,7 @@
     "author": "Damilare Anjorin",
     "license": "MIT",
     "dependencies": {
-        "@damilaredev/eslint-config-typescript": "^0.0.7",
+        "@damilaredev/eslint-config-typescript": "^0.0.8",
         "eslint-config-next": "12.0.10"
     },
     "peerDependencies": {
