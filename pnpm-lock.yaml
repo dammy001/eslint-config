@@ -29,7 +29,7 @@ importers:
       eslint-plugin-n: ^15.0.0
       eslint-plugin-promise: ^6.0.0
       eslint-plugin-unicorn: ^41.0.0
-      eslint-plugin-vue: 8.4.1
+      eslint-plugin-vue: 8.5.0
       eslint-plugin-yml: ^0.14.0
       jsonc-eslint-parser: ^2.1.0
       yaml-eslint-parser: ^0.5.0
@@ -46,7 +46,7 @@ importers:
       eslint-plugin-n: 15.0.0_eslint@8.9.0
       eslint-plugin-promise: 6.0.0_eslint@8.9.0
       eslint-plugin-unicorn: 41.0.0_eslint@8.9.0
-      eslint-plugin-vue: 8.4.1_eslint@8.9.0
+      eslint-plugin-vue: 8.5.0_eslint@8.9.0
       eslint-plugin-yml: 0.14.0_eslint@8.9.0
       jsonc-eslint-parser: 2.1.0
       yaml-eslint-parser: 0.5.0
@@ -2366,8 +2366,8 @@ packages:
       - supports-color
     dev: false
 
-  /eslint-plugin-vue/8.4.1_eslint@8.9.0:
-    resolution: {integrity: sha512-nmWOhNmDx9TZ+yP9ZhezTkZUupSHsYA2TocRm+efPSXMOyFrVczVlaIuQcLBjCtI8CbkBiUQ3VcyQsjlIhDrhA==}
+  /eslint-plugin-vue/8.5.0_eslint@8.9.0:
+    resolution: {integrity: sha512-i1uHCTAKOoEj12RDvdtONWrGzjFm/djkzqfhmQ0d6M/W8KM81mhswd/z+iTZ0jCpdUedW3YRgcVfQ37/J4zoYQ==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     peerDependencies:
       eslint: ^6.2.0 || ^7.0.0 || ^8.0.0
@@ -2458,7 +2458,6 @@ packages:
   /eslint-visitor-keys/3.3.0:
     resolution: {integrity: sha512-mQ+suqKJVyeuwGYHAdjMFqjCyfl8+Ldnxuyp3ldiMBFKkvytrXUZWaiPCEav8qDHKty44bD+qV1IP4T+w+xXRA==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
-    dev: true
 
   /eslint/8.9.0:
     resolution: {integrity: sha512-PB09IGwv4F4b0/atrbcMFboF/giawbBLVC7fyDamk5Wtey4Jh2K+rYaBhCAbUyEI4QzB1ly09Uglc9iCtFaG2Q==}
@@ -2520,7 +2519,6 @@ packages:
       acorn: 8.7.0
       acorn-jsx: 5.3.2_acorn@8.7.0
       eslint-visitor-keys: 3.3.0
-    dev: true
 
   /esquery/1.4.0:
     resolution: {integrity: sha512-cCDispWt5vHHtwMY2YrAQ4ibFkAL8RbH5YGBnZBc90MolvvfkkQcJro/aZiAQUlQ3qgrYS6D6v8Gc5G5CQsc9w==}
@@ -5288,8 +5286,8 @@ packages:
       debug: 4.3.3
       eslint: 8.9.0
       eslint-scope: 6.0.0
-      eslint-visitor-keys: 3.2.0
-      espree: 9.3.0
+      eslint-visitor-keys: 3.3.0
+      espree: 9.3.1
       esquery: 1.4.0
       lodash: 4.17.21
       semver: 7.3.5
