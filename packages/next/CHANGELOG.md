@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.0.11](https://github.com/dammy001/eslint-config/compare/v0.0.10...v0.0.11) (2022-03-08)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-config-next to v12.1.0 ([7bce3b0](https://github.com/dammy001/eslint-config/commit/7bce3b014ccb8dc3a602de45eb74d02e21e6bf21))
+
+
+
+
+
 ## [0.0.10](https://github.com/dammy001/eslint-config/compare/v0.0.8...v0.0.10) (2022-02-16)
 
 **Note:** Version bump only for package @damilaredev/eslint-config-next
