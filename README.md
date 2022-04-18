@@ -1,4 +1,4 @@
-# eslint-config
+### eslint-config
 
 ## Usage
 
@@ -7,10 +7,10 @@
 ```bash
    // pnpm
   pnpm add -D eslint @damilaredev/eslint-config
-  
+
   //with npm
   npm i -D eslint @damilaredev/eslint-config
-  
+
   //with yarn
   yarn add -D eslint @damilaredev/eslint-config
 ```

@@ -9,7 +9,7 @@
   },
   "scripts": {
     "preinstall": "npx only-allow pnpm",
-    "lint": "npx eslint --ext .js,.json,.ts,.md,.vue --fix .",
+    "lint": "npx eslint --ext .js,.json,.ts,.vue --fix .",
     "release": "lerna publish --conventional-commits"
   },
   "devDependencies": {
