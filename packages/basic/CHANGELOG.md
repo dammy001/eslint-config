@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.0.13](https://github.com/dammy001/eslint-config/compare/v0.0.12...v0.0.13) (2022-04-18)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-unicorn to v42 ([7d7a490](https://github.com/dammy001/eslint-config/commit/7d7a490584c6389bed7f01fe1ec44a3c6e8886bc))
+
+
+
+
+
 ## [0.0.12](https://github.com/dammy001/eslint-config/compare/v0.0.11...v0.0.12) (2022-03-25)
 
 **Note:** Version bump only for package @damilaredev/eslint-config-basic
