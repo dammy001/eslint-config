@@ -22,5 +22,6 @@ module.exports = {
     'vue/multi-word-component-names': 'off',
     'vue/no-v-html': 'off',
     'vue/require-prop-types': 'off',
+    'require-await': 'error',
   },
 }
