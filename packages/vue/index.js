@@ -23,5 +23,6 @@ module.exports = {
     'vue/no-v-html': 'off',
     'vue/require-prop-types': 'off',
     'require-await': 'error',
+    'vue/valid-next-tick': 'off',
   },
 }
