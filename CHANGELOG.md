@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.0.15](https://github.com/dammy001/eslint-config/compare/v0.0.14...v0.0.15) (2022-07-04)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-config-next to v12.2.0 ([849e205](https://github.com/dammy001/eslint-config/commit/849e2053a4687848c0d2c9948b46652703d0b604))
+* **deps:** update dependency eslint-plugin-unicorn to v43 ([2f60c7e](https://github.com/dammy001/eslint-config/commit/2f60c7e4fbf6338b1d829d36918c9c627e3b6342))
+* **deps:** update dependency eslint-plugin-vue to v9.1.0 ([d57e6d0](https://github.com/dammy001/eslint-config/commit/d57e6d0a54998338dd73852c878bc9d726add1f5))
+* **deps:** update dependency eslint-plugin-vue to v9.1.1 ([a3008f4](https://github.com/dammy001/eslint-config/commit/a3008f468665c667dd6fe48784168906af70d0d0))
+
+
+
+
+
 ## [0.0.14](https://github.com/dammy001/eslint-config/compare/v0.0.13...v0.0.14) (2022-05-20)
 
 
