@@ -16,8 +16,8 @@ importers:
 
   packages/all:
     specifiers:
-      '@damilaredev/eslint-config-react': ^0.0.14
-      '@damilaredev/eslint-config-vue': ^0.0.14
+      '@damilaredev/eslint-config-react': ^0.0.15
+      '@damilaredev/eslint-config-vue': ^0.0.15
       '@typescript-eslint/eslint-plugin': ^5.10.0
       '@typescript-eslint/parser': ^5.10.0
       eslint: 8.19.0
@@ -84,18 +84,18 @@ importers:
 
   packages/next:
     specifiers:
-      '@damilaredev/eslint-config-typescript': ^0.0.14
+      '@damilaredev/eslint-config-typescript': ^0.0.15
       eslint: 8.19.0
-      eslint-config-next: 12.2.0
+      eslint-config-next: 12.2.2
     dependencies:
       '@damilaredev/eslint-config-typescript': link:../typescript
-      eslint-config-next: 12.2.0_eslint@8.19.0
+      eslint-config-next: 12.2.2_eslint@8.19.0
     devDependencies:
       eslint: 8.19.0
 
   packages/react:
     specifiers:
-      '@damilaredev/eslint-config-typescript': ^0.0.14
+      '@damilaredev/eslint-config-typescript': ^0.0.15
       eslint: 8.19.0
       eslint-plugin-react: ^7.28.0
       eslint-plugin-react-hooks: ^4.3.0
@@ -110,7 +110,7 @@ importers:
 
   packages/typescript:
     specifiers:
-      '@damilaredev/eslint-config-basic': ^0.0.14
+      '@damilaredev/eslint-config-basic': ^0.0.15
       '@typescript-eslint/eslint-plugin': ^5.10.0
       '@typescript-eslint/parser': ^5.10.0
       eslint: 8.19.0
@@ -123,7 +123,7 @@ importers:
 
   packages/vue:
     specifiers:
-      '@damilaredev/eslint-config-typescript': ^0.0.14
+      '@damilaredev/eslint-config-typescript': ^0.0.15
       eslint: 8.19.0
       eslint-plugin-vue: ^9.0.0
     dependencies:
@@ -916,8 +916,8 @@ packages:
       write-file-atomic: 3.0.3
     dev: true
 
-  /@next/eslint-plugin-next/12.2.0:
-    resolution: {integrity: sha512-nIj5xV/z3dOfeBnE7qFAjUQZAi4pTlIMuusRM6s/T6lOz8x7mjY5s1ZkTUBmcjPVCb2VIv3CrMH0WZL6xfjZZg==}
+  /@next/eslint-plugin-next/12.2.2:
+    resolution: {integrity: sha512-XOi0WzJhGH3Lk51SkSu9eZxF+IY1ZZhWcJTIGBycAbWU877IQa6+6KxMATWCOs7c+bmp6Sd8KywXJaDRxzu0JA==}
     dependencies:
       glob: 7.1.7
     dev: false
@@ -2356,8 +2356,8 @@ packages:
     resolution: {integrity: sha512-TtpcNJ3XAzx3Gq8sWRzJaVajRs0uVxA2YAkdb1jm2YkPz4G6egUFAyA3n5vtEIZefPk5Wa4UXbKuS5fKkJWdgA==}
     engines: {node: '>=10'}
 
-  /eslint-config-next/12.2.0_eslint@8.19.0:
-    resolution: {integrity: sha512-QWzNegadFXjQ0h3hixnLacRM9Kot85vQefyNsA8IeOnERZMz0Gvays1W6DMCjSxJbnCwuWaMXj9DCpar5IahRA==}
+  /eslint-config-next/12.2.2_eslint@8.19.0:
+    resolution: {integrity: sha512-oJhWBLC4wDYYUFv/5APbjHUFd0QRFCojMdj/QnMoOEktmeTvwnnoA8F8uaXs0fQgsaTK0tbUxBRv9/Y4/rpxOA==}
     peerDependencies:
       eslint: ^7.23.0 || ^8.0.0
       typescript: '>=3.3.1'
@@ -2365,7 +2365,7 @@ packages:
       typescript:
         optional: true
     dependencies:
-      '@next/eslint-plugin-next': 12.2.0
+      '@next/eslint-plugin-next': 12.2.2
       '@rushstack/eslint-patch': 1.1.3
       '@typescript-eslint/parser': 5.25.0_eslint@8.19.0
       eslint: 8.19.0
@@ -4413,7 +4413,7 @@ packages:
     dev: false
 
   /object-assign/4.1.1:
-    resolution: {integrity: sha1-IQmtx5ZYh8/AXLvUQsrIv7s2CGM=}
+    resolution: {integrity: sha512-rJgTQnkUnH1sFw8yT6VSU3zD3sWmu6sZhIseY8VX+GRu3P6F7Fu+JNDoXfklElbLJSnc3FUQHVe4cU5hj+BcUg==}
     engines: {node: '>=0.10.0'}
     dev: false
 
