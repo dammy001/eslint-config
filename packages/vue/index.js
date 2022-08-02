@@ -24,5 +24,12 @@ module.exports = {
     'vue/require-prop-types': 'off',
     'require-await': 'error',
     'vue/valid-next-tick': 'off',
+    'no-console': process.env.NODE_ENV !== 'production' ? 'warn' : 'error',
+    'vue/define-macros-order': [
+      'warn',
+      {
+        order: ['defineProps', 'defineEmits'],
+      },
+    ],
   },
 }
