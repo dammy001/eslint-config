@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.0.16](https://github.com/dammy001/eslint-config/compare/v0.0.15...v0.0.16) (2022-08-02)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-html to v7 ([0077f81](https://github.com/dammy001/eslint-config/commit/0077f8198a50e1ada7875fed36095437cd0b8938))
+
+
+
+
+
 ## [0.0.15](https://github.com/dammy001/eslint-config/compare/v0.0.14...v0.0.15) (2022-07-04)
 
 

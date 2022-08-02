@@ -1,6 +1,6 @@
 {
   "name": "@damilaredev/eslint-config",
-  "version": "0.0.15",
+  "version": "0.0.16",
   "description": "",
   "main": "index.js",
   "files": [
@@ -22,8 +22,8 @@
     "eslint": ">=7.4.0"
   },
   "dependencies": {
-    "@damilaredev/eslint-config-react": "^0.0.15",
-    "@damilaredev/eslint-config-vue": "^0.0.15",
+    "@damilaredev/eslint-config-react": "^0.0.16",
+    "@damilaredev/eslint-config-vue": "^0.0.16",
     "@typescript-eslint/eslint-plugin": "^5.10.0",
     "@typescript-eslint/parser": "^5.10.0",
     "eslint-config-standard": "17.0.0",
