@@ -1,6 +1,6 @@
 {
     "name": "@damilaredev/eslint-config-vue",
-    "version": "0.0.16",
+    "version": "0.0.17",
     "description": "",
     "main": "index.js",
     "files": [
@@ -16,7 +16,7 @@
         "url": "https://github.com/dammy001/eslint-config/issues"
     },
     "dependencies": {
-        "@damilaredev/eslint-config-typescript": "^0.0.16",
+        "@damilaredev/eslint-config-typescript": "^0.0.17",
         "eslint-plugin-vue": "^9.0.0"
     },
     "peerDependencies": {
