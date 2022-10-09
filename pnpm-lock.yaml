@@ -16,8 +16,8 @@ importers:
 
   packages/all:
     specifiers:
-      '@damilaredev/eslint-config-react': ^0.0.16
-      '@damilaredev/eslint-config-vue': ^0.0.16
+      '@damilaredev/eslint-config-react': ^0.0.17
+      '@damilaredev/eslint-config-vue': ^0.0.17
       '@typescript-eslint/eslint-plugin': ^5.10.0
       '@typescript-eslint/parser': ^5.10.0
       eslint: 8.24.0
@@ -84,7 +84,7 @@ importers:
 
   packages/next:
     specifiers:
-      '@damilaredev/eslint-config-typescript': ^0.0.16
+      '@damilaredev/eslint-config-typescript': ^0.0.17
       eslint: 8.24.0
       eslint-config-next: 12.3.1
     dependencies:
@@ -95,7 +95,7 @@ importers:
 
   packages/react:
     specifiers:
-      '@damilaredev/eslint-config-typescript': ^0.0.16
+      '@damilaredev/eslint-config-typescript': ^0.0.17
       eslint: 8.24.0
       eslint-plugin-react: ^7.28.0
       eslint-plugin-react-hooks: ^4.3.0
@@ -110,7 +110,7 @@ importers:
 
   packages/typescript:
     specifiers:
-      '@damilaredev/eslint-config-basic': ^0.0.16
+      '@damilaredev/eslint-config-basic': ^0.0.17
       '@typescript-eslint/eslint-plugin': ^5.10.0
       '@typescript-eslint/parser': ^5.10.0
       eslint: 8.24.0
@@ -123,7 +123,7 @@ importers:
 
   packages/vue:
     specifiers:
-      '@damilaredev/eslint-config-typescript': ^0.0.16
+      '@damilaredev/eslint-config-typescript': ^0.0.17
       eslint: 8.24.0
       eslint-plugin-vue: ^9.0.0
     dependencies:
