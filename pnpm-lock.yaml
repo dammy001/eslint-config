@@ -29,7 +29,7 @@ importers:
       eslint-plugin-n: ^15.0.0
       eslint-plugin-promise: ^6.0.0
       eslint-plugin-unicorn: ^45.0.0
-      eslint-plugin-vue: 9.7.0
+      eslint-plugin-vue: 9.8.0
       eslint-plugin-yml: ^1.0.0
       jsonc-eslint-parser: ^2.1.0
       yaml-eslint-parser: ^1.0.0
@@ -46,7 +46,7 @@ importers:
       eslint-plugin-n: 15.0.0_eslint@8.27.0
       eslint-plugin-promise: 6.0.0_eslint@8.27.0
       eslint-plugin-unicorn: 45.0.0_eslint@8.27.0
-      eslint-plugin-vue: 9.7.0_eslint@8.27.0
+      eslint-plugin-vue: 9.8.0_eslint@8.27.0
       eslint-plugin-yml: 1.0.0_eslint@8.27.0
       jsonc-eslint-parser: 2.1.0
       yaml-eslint-parser: 1.0.1
@@ -2964,8 +2964,8 @@ packages:
       - supports-color
     dev: false
 
-  /eslint-plugin-vue/9.7.0_eslint@8.27.0:
-    resolution: {integrity: sha512-DrOO3WZCZEwcLsnd3ohFwqCoipGRSTKTBTnLwdhqAbYZtzWl0o7D+D8ZhlmiZvABKTEl8AFsqH1GHGdybyoQmw==}
+  /eslint-plugin-vue/9.8.0_eslint@8.27.0:
+    resolution: {integrity: sha512-E/AXwcTzunyzM83C2QqDHxepMzvI2y6x+mmeYHbVDQlKFqmKYvRrhaVixEeeG27uI44p9oKDFiyCRw4XxgtfHA==}
     engines: {node: ^14.17.0 || >=16.0.0}
     peerDependencies:
       eslint: ^6.2.0 || ^7.0.0 || ^8.0.0
@@ -2975,7 +2975,7 @@ packages:
       natural-compare: 1.4.0
       nth-check: 2.0.1
       postcss-selector-parser: 6.0.10
-      semver: 7.3.7
+      semver: 7.3.8
       vue-eslint-parser: 9.0.2_eslint@8.27.0
       xml-name-validator: 4.0.0
     transitivePeerDependencies:
@@ -5981,7 +5981,7 @@ packages:
       espree: 9.4.0
       esquery: 1.4.0
       lodash: 4.17.21
-      semver: 7.3.7
+      semver: 7.3.8
     transitivePeerDependencies:
       - supports-color
     dev: false
