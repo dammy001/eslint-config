@@ -26,5 +26,9 @@ module.exports = {
     '@typescript-eslint/prefer-ts-expect-error': 'error',
     '@typescript-eslint/no-shadow': ['error'],
     '@typescript-eslint/no-use-before-define': 'off',
+    '@typescript-eslint/consistent-type-imports': [
+      'error',
+      { prefer: 'type-imports' },
+    ],
   },
 }
