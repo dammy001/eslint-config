@@ -97,7 +97,24 @@ module.exports = {
     'import/no-absolute-path': 'off',
     'import/extensions': 'off',
     'import/no-extraneous-dependencies': 'off',
+    'import/no-duplicates': 'error',
 
     'global-require': 'off',
+    'sort-imports': [
+      'error',
+      {
+        ignoreCase: false,
+        ignoreDeclarationSort: true,
+        ignoreMemberSort: false,
+        memberSyntaxSortOrder: ['none', 'all', 'multiple', 'single'],
+        allowSeparatedGroups: false,
+      },
+    ],
+    'prefer-const': [
+      'warn',
+      {
+        destructuring: 'all',
+      },
+    ],
   },
 }
