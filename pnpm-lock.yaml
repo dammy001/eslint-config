@@ -29,7 +29,7 @@ importers:
       eslint-plugin-n: ^15.0.0
       eslint-plugin-promise: ^6.0.0
       eslint-plugin-unicorn: ^45.0.0
-      eslint-plugin-vue: 9.8.0
+      eslint-plugin-vue: 9.9.0
       eslint-plugin-yml: ^1.0.0
       jsonc-eslint-parser: ^2.1.0
       yaml-eslint-parser: ^1.0.0
@@ -46,7 +46,7 @@ importers:
       eslint-plugin-n: 15.0.0_eslint@8.31.0
       eslint-plugin-promise: 6.0.0_eslint@8.31.0
       eslint-plugin-unicorn: 45.0.0_eslint@8.31.0
-      eslint-plugin-vue: 9.8.0_eslint@8.31.0
+      eslint-plugin-vue: 9.9.0_eslint@8.31.0
       eslint-plugin-yml: 1.0.0_eslint@8.31.0
       jsonc-eslint-parser: 2.1.0
       yaml-eslint-parser: 1.0.1
@@ -3001,8 +3001,8 @@ packages:
       - supports-color
     dev: false
 
-  /eslint-plugin-vue/9.8.0_eslint@8.31.0:
-    resolution: {integrity: sha512-E/AXwcTzunyzM83C2QqDHxepMzvI2y6x+mmeYHbVDQlKFqmKYvRrhaVixEeeG27uI44p9oKDFiyCRw4XxgtfHA==}
+  /eslint-plugin-vue/9.9.0_eslint@8.31.0:
+    resolution: {integrity: sha512-YbubS7eK0J7DCf0U2LxvVP7LMfs6rC6UltihIgval3azO3gyDwEGVgsCMe1TmDiEkl6GdMKfRpaME6QxIYtzDQ==}
     engines: {node: ^14.17.0 || >=16.0.0}
     peerDependencies:
       eslint: ^6.2.0 || ^7.0.0 || ^8.0.0
