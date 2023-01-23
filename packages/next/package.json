@@ -13,7 +13,7 @@
     "license": "MIT",
     "dependencies": {
         "@damilaredev/eslint-config-typescript": "^0.0.17",
-        "eslint-config-next": "13.1.2"
+        "eslint-config-next": "13.1.4"
     },
     "peerDependencies": {
         "eslint": ">=7.4.0",
