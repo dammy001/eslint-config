@@ -3,6 +3,29 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.0.18](https://github.com/dammy001/eslint-config/compare/v0.0.17...v0.0.18) (2023-02-12)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-config-next to v13 ([5855617](https://github.com/dammy001/eslint-config/commit/58556171372baa5c58908a343f5e47fd17ce221d))
+* **deps:** update dependency eslint-config-next to v13.0.1 ([27ae0f2](https://github.com/dammy001/eslint-config/commit/27ae0f251b32686d69b8ed76aaf4dab957c4e071))
+* **deps:** update dependency eslint-config-next to v13.0.5 ([88df57a](https://github.com/dammy001/eslint-config/commit/88df57af975c174d6e74aa4122c7727a170239ae))
+* **deps:** update dependency eslint-config-next to v13.0.6 ([929f85c](https://github.com/dammy001/eslint-config/commit/929f85c4f48df6d8b919b9579223759c4b7cd110))
+* **deps:** update dependency eslint-config-next to v13.1.1 ([cf0abb3](https://github.com/dammy001/eslint-config/commit/cf0abb31abcdc8c79d308759429121d158ef096e))
+* **deps:** update dependency eslint-config-next to v13.1.2 ([0ba1d04](https://github.com/dammy001/eslint-config/commit/0ba1d041a89b56384f273cfeb5b62e96eb00c49d))
+* **deps:** update dependency eslint-config-next to v13.1.4 ([613a023](https://github.com/dammy001/eslint-config/commit/613a0231ce1a92c03c04baad8b3054b9dd5d131f))
+* **deps:** update dependency eslint-config-next to v13.1.5 ([24575d4](https://github.com/dammy001/eslint-config/commit/24575d43cc5efab9f87129c7888e05a6c5f56b77))
+* **deps:** update dependency eslint-config-next to v13.1.6 ([77eed58](https://github.com/dammy001/eslint-config/commit/77eed58b38a311b3f797c391390e02b1cb2542e1))
+* **deps:** update dependency eslint-plugin-unicorn to v45 ([108aebc](https://github.com/dammy001/eslint-config/commit/108aebc8e4d55a11baf0a894405e9a59a572fda7))
+* **deps:** update dependency eslint-plugin-vue to v9.7.0 ([4aca5d3](https://github.com/dammy001/eslint-config/commit/4aca5d3778ef7a6cfea9c636ae057527c3c6216d))
+* **deps:** update dependency eslint-plugin-vue to v9.8.0 ([d11bc74](https://github.com/dammy001/eslint-config/commit/d11bc74c2272dfd8bc534601a2956340f5cebcfd))
+* **deps:** update dependency eslint-plugin-vue to v9.9.0 ([436f6f7](https://github.com/dammy001/eslint-config/commit/436f6f78ec736f5513b24be744c87a4d6ff27cfc))
+
+
+
+
+
 ## [0.0.17](https://github.com/dammy001/eslint-config/compare/v0.0.16...v0.0.17) (2022-10-07)
 
 
