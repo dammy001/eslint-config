@@ -37,7 +37,7 @@ importers:
       eslint-plugin-jsonc: ^2.0.0
       eslint-plugin-n: ^15.0.0
       eslint-plugin-promise: ^6.0.0
-      eslint-plugin-unicorn: ^45.0.0
+      eslint-plugin-unicorn: ^46.0.0
       eslint-plugin-yml: ^1.0.0
       jsonc-eslint-parser: ^2.1.0
       yaml-eslint-parser: ^1.0.0
@@ -49,7 +49,7 @@ importers:
       eslint-plugin-jsonc: 2.0.0_eslint@8.35.0
       eslint-plugin-n: 15.0.0_eslint@8.35.0
       eslint-plugin-promise: 6.0.0_eslint@8.35.0
-      eslint-plugin-unicorn: 45.0.0_eslint@8.35.0
+      eslint-plugin-unicorn: 46.0.0_eslint@8.35.0
       eslint-plugin-yml: 1.0.0_eslint@8.35.0
       jsonc-eslint-parser: 2.1.0
       yaml-eslint-parser: 1.0.1
@@ -141,6 +141,16 @@ packages:
     engines: {node: '>=6.9.0'}
     dependencies:
       regenerator-runtime: 0.13.9
+    dev: false
+
+  /@eslint-community/eslint-utils/4.2.0_eslint@8.35.0:
+    resolution: {integrity: sha512-gB8T4H4DEfX2IV9zGDJPOBgP1e/DbfCPDTtEqUMckpvzS1OYtva8JdFYBqMwYk7xAQ429WGF/UPqn8uQ//h2vQ==}
+    engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
+    peerDependencies:
+      eslint: ^6.0.0 || ^7.0.0 || >=8.0.0
+    dependencies:
+      eslint: 8.35.0
+      eslint-visitor-keys: 3.3.0
     dev: false
 
   /@eslint/eslintrc/2.0.0:
@@ -2239,18 +2249,18 @@ packages:
       string.prototype.matchall: 4.0.7
     dev: false
 
-  /eslint-plugin-unicorn/45.0.0_eslint@8.35.0:
-    resolution: {integrity: sha512-iP8cMRxXKHonKioOhnCoCcqVhoqhAp6rB+nsoLjXFDxTHz3btWMAp8xwzjHA0B1K6YV/U/Yvqn1bUXZt8sJPuQ==}
+  /eslint-plugin-unicorn/46.0.0_eslint@8.35.0:
+    resolution: {integrity: sha512-j07WkC+PFZwk8J33LYp6JMoHa1lXc1u6R45pbSAipjpfpb7KIGr17VE2D685zCxR5VL4cjrl65kTJflziQWMDA==}
     engines: {node: '>=14.18'}
     peerDependencies:
       eslint: '>=8.28.0'
     dependencies:
       '@babel/helper-validator-identifier': 7.19.1
+      '@eslint-community/eslint-utils': 4.2.0_eslint@8.35.0
       ci-info: 3.6.1
       clean-regexp: 1.0.0
       eslint: 8.35.0
-      eslint-utils: 3.0.0_eslint@8.35.0
-      esquery: 1.4.0
+      esquery: 1.4.2
       indent-string: 4.0.0
       is-builtin-module: 3.2.0
       jsesc: 3.0.2
@@ -2416,13 +2426,6 @@ packages:
     engines: {node: '>=4'}
     hasBin: true
     dev: true
-
-  /esquery/1.4.0:
-    resolution: {integrity: sha512-cCDispWt5vHHtwMY2YrAQ4ibFkAL8RbH5YGBnZBc90MolvvfkkQcJro/aZiAQUlQ3qgrYS6D6v8Gc5G5CQsc9w==}
-    engines: {node: '>=0.10'}
-    dependencies:
-      estraverse: 5.3.0
-    dev: false
 
   /esquery/1.4.2:
     resolution: {integrity: sha512-JVSoLdTlTDkmjFmab7H/9SL9qGSyjElT3myyKp7krqjVFQCDLmj1QFaCLRFBszBKI0XVZaiiXvuPIX3ZwHe1Ng==}
