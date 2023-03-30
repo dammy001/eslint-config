@@ -17,6 +17,6 @@
     "@damilaredev/eslint-config": "*",
     "eslint": "8.37.0",
     "lerna": "6.5.1",
-    "typescript": "5.0.2"
+    "typescript": "5.0.3"
   }
 }
