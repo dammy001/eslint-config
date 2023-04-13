@@ -7,12 +7,12 @@ importers:
       '@damilaredev/eslint-config': '*'
       eslint: 8.38.0
       lerna: 6.5.1
-      typescript: 5.0.3
+      typescript: 5.0.4
     devDependencies:
       '@damilaredev/eslint-config': link:packages/all
       eslint: 8.38.0
       lerna: 6.5.1
-      typescript: 5.0.3
+      typescript: 5.0.4
 
   packages/all:
     specifiers:
@@ -73,14 +73,14 @@ importers:
       eslint: 8.38.0
       eslint-plugin-react: ^7.28.0
       eslint-plugin-react-hooks: ^4.3.0
-      typescript: 5.0.3
+      typescript: 5.0.4
     dependencies:
       '@damilaredev/eslint-config-typescript': link:../typescript
       eslint-plugin-react: 7.28.0_eslint@8.38.0
       eslint-plugin-react-hooks: 4.3.0_eslint@8.38.0
     devDependencies:
       eslint: 8.38.0
-      typescript: 5.0.3
+      typescript: 5.0.4
 
   packages/typescript:
     specifiers:
@@ -5350,8 +5350,8 @@ packages:
     engines: {node: '>=12.20'}
     hasBin: true
 
-  /typescript/5.0.3:
-    resolution: {integrity: sha512-xv8mOEDnigb/tN9PSMTwSEqAnUvkoXMQlicOb0IUVDBSQCgBSaAAROUZYy2IcUy5qU6XajK5jjjO7TMWqBTKZA==}
+  /typescript/5.0.4:
+    resolution: {integrity: sha512-cW9T5W9xY37cc+jfEnaUvX91foxtHkza3Nw3wkoF4sSlKn0MONdkdEndig/qPBWXNkmplh3NzayQzCiHM4/hqw==}
     engines: {node: '>=12.20'}
     hasBin: true
     dev: true
