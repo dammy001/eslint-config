@@ -20,7 +20,7 @@
         "next": ">=10.0.0"
     },
     "devDependencies": {
-        "eslint": "8.39.0"
+        "eslint": "8.41.0"
     },
     "publishConfig": {
         "access": "public"
