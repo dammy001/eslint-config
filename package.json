@@ -15,7 +15,7 @@
   },
   "devDependencies": {
     "@damilaredev/eslint-config": "*",
-    "eslint": "8.42.0",
+    "eslint": "8.43.0",
     "lerna": "7.0.0",
     "typescript": "5.0.4"
   }
