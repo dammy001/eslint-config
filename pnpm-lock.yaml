@@ -15,8 +15,8 @@ importers:
         specifier: 8.44.0
         version: 8.44.0
       lerna:
-        specifier: 7.1.1
-        version: 7.1.1
+        specifier: 7.1.3
+        version: 7.1.3
       typescript:
         specifier: 5.1.6
         version: 5.1.6
@@ -1564,8 +1564,8 @@ packages:
       '@jridgewell/sourcemap-codec': 1.4.14
     dev: false
 
-  /@lerna/child-process@7.1.1:
-    resolution: {integrity: sha512-mR8PaTkckYPLmEBG2VsVsJq2UuzEvjXevOB1rKLKUZ/dPCGcottVhbiEzTxickc+s7Y/1dTTLn/1BKj3B1a5BA==}
+  /@lerna/child-process@7.1.3:
+    resolution: {integrity: sha512-ZXHo30G5Ia/RCWKVyBm+3kAe/liWy7KaRF+CPWZpxYo+ysFPBIJ/7XZlGMzmq8fQaMsPj1z61q4wyqeAlUwuvQ==}
     engines: {node: ^14.17.0 || >=16.0.0}
     dependencies:
       chalk: 4.1.2
@@ -1573,11 +1573,11 @@ packages:
       strong-log-transformer: 2.1.0
     dev: true
 
-  /@lerna/create@7.1.1:
-    resolution: {integrity: sha512-1PY2OgwGxp7b91JzLKEhONVl69mCt1IyYEc6pzKy3Sv+UOdeK2QFq1SX/85hNOR3iitiyZ75bNWUTcBly1ZlZg==}
+  /@lerna/create@7.1.3:
+    resolution: {integrity: sha512-i/xUmT7sMNTUhGpSUuQJ8N776YiT/fJaKPrzMSAoxqDBhyDryi4o4JUR+rrN9oELOEsO+SOXQEusBdkmUdVTMg==}
     engines: {node: ^14.17.0 || >=16.0.0}
     dependencies:
-      '@lerna/child-process': 7.1.1
+      '@lerna/child-process': 7.1.3
       dedent: 0.7.0
       fs-extra: 11.1.1
       init-package-json: 5.0.0
@@ -6361,13 +6361,13 @@ packages:
       language-subtag-registry: 0.3.21
     dev: false
 
-  /lerna@7.1.1:
-    resolution: {integrity: sha512-rjivAl3bYu2+lWOi90vy0tYFgwBYPMiNkR/DuEWZC08wle5dsbOZ/SlXeLk9+kzbF89Bt5P6p+qF78A2tJsWPA==}
+  /lerna@7.1.3:
+    resolution: {integrity: sha512-LMs9HU0z5fNFMNOyDVinJcf04QaScReJ8Q2pqxO+nPOmbvNsBwykBgMTWLboL1rI1CCR0/WLdMnvObvR52MtTw==}
     engines: {node: ^14.17.0 || >=16.0.0}
     hasBin: true
     dependencies:
-      '@lerna/child-process': 7.1.1
-      '@lerna/create': 7.1.1
+      '@lerna/child-process': 7.1.3
+      '@lerna/create': 7.1.3
       '@npmcli/run-script': 6.0.2
       '@nx/devkit': 16.3.2(nx@16.3.2)
       '@octokit/plugin-enterprise-rest': 6.0.1
