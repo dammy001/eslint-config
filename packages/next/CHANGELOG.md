@@ -3,6 +3,29 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.0.19](https://github.com/dammy001/eslint-config/compare/v0.0.18...v0.0.19) (2023-07-14)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-config-next to v13.2.1 ([2108d6d](https://github.com/dammy001/eslint-config/commit/2108d6d3fe0e403516a05674fc043ae9b007c9da))
+* **deps:** update dependency eslint-config-next to v13.2.3 ([d49d1f2](https://github.com/dammy001/eslint-config/commit/d49d1f2b52bb2abd3a5b7d3ec66aef5468b84e21))
+* **deps:** update dependency eslint-config-next to v13.2.4 ([fb410d1](https://github.com/dammy001/eslint-config/commit/fb410d18f29dfbdd99c91689b981dd4a279c5c5b))
+* **deps:** update dependency eslint-config-next to v13.3.0 ([9793d6d](https://github.com/dammy001/eslint-config/commit/9793d6d0c656d91b55c9fce4c98aafe7a760701d))
+* **deps:** update dependency eslint-config-next to v13.3.1 ([22a961d](https://github.com/dammy001/eslint-config/commit/22a961d2a5b8fdd9ac17103463e62b5341a8187c))
+* **deps:** update dependency eslint-config-next to v13.3.4 ([ba9ef32](https://github.com/dammy001/eslint-config/commit/ba9ef32f035b66d05499116236dd10a3e2b44570))
+* **deps:** update dependency eslint-config-next to v13.4.0 ([ce063ae](https://github.com/dammy001/eslint-config/commit/ce063ae127a846532ab613c99aeba2374a804c6a))
+* **deps:** update dependency eslint-config-next to v13.4.1 ([001c095](https://github.com/dammy001/eslint-config/commit/001c0951311bf93c3320024470ab80c3c767b1a2))
+* **deps:** update dependency eslint-config-next to v13.4.4 ([674183e](https://github.com/dammy001/eslint-config/commit/674183efb29e110c234c3f675d1fc9ac1df39a1d))
+* **deps:** update dependency eslint-config-next to v13.4.5 ([c492aa6](https://github.com/dammy001/eslint-config/commit/c492aa6460e2a36b2e79c4ca1fff148184f99737))
+* **deps:** update dependency eslint-config-next to v13.4.6 ([67e9328](https://github.com/dammy001/eslint-config/commit/67e93286928584dd74dde115afde5dfb98d08b14))
+* **deps:** update dependency eslint-config-next to v13.4.7 ([6cd3b2f](https://github.com/dammy001/eslint-config/commit/6cd3b2f5f1c699db4a0c0e563e811fb465333072))
+* **deps:** update dependency eslint-config-next to v13.4.9 ([4e6387b](https://github.com/dammy001/eslint-config/commit/4e6387bc527bffa96281884fae7537cfabd2984d))
+
+
+
+
+
 ## [0.0.18](https://github.com/dammy001/eslint-config/compare/v0.0.17...v0.0.18) (2023-02-12)
 
 
