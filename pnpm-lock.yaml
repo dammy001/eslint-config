@@ -24,13 +24,13 @@ importers:
   packages/all:
     dependencies:
       '@damilaredev/eslint-config-react':
-        specifier: ^0.0.18
+        specifier: ^0.0.19
         version: link:../react
       '@damilaredev/eslint-config-typescript':
-        specifier: ^0.0.18
+        specifier: ^0.0.19
         version: link:../typescript
       '@damilaredev/eslint-config-vue':
-        specifier: ^0.0.18
+        specifier: ^0.0.19
         version: link:../vue
     devDependencies:
       eslint:
@@ -80,7 +80,7 @@ importers:
   packages/next:
     dependencies:
       '@damilaredev/eslint-config-typescript':
-        specifier: ^0.0.18
+        specifier: ^0.0.19
         version: link:../typescript
       eslint-config-next:
         specifier: 13.4.9
@@ -96,7 +96,7 @@ importers:
   packages/react:
     dependencies:
       '@damilaredev/eslint-config-typescript':
-        specifier: ^0.0.18
+        specifier: ^0.0.19
         version: link:../typescript
       eslint-plugin-react:
         specifier: ^7.28.0
@@ -118,7 +118,7 @@ importers:
   packages/typescript:
     dependencies:
       '@damilaredev/eslint-config-basic':
-        specifier: ^0.0.18
+        specifier: ^0.0.19
         version: link:../basic
       '@typescript-eslint/eslint-plugin':
         specifier: ^6.0.0
@@ -137,7 +137,7 @@ importers:
   packages/vue:
     dependencies:
       '@damilaredev/eslint-config-typescript':
-        specifier: ^0.0.18
+        specifier: ^0.0.19
         version: link:../typescript
       eslint-plugin-vue:
         specifier: ^9.0.0
