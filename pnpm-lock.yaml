@@ -46,8 +46,8 @@ importers:
         specifier: ^3.2.0
         version: 3.2.0(eslint@8.56.0)
       eslint-plugin-html:
-        specifier: ^7.0.0
-        version: 7.0.0
+        specifier: ^8.0.0
+        version: 8.0.0
       eslint-plugin-import:
         specifier: ^2.25.4
         version: 2.25.4(eslint@8.56.0)
@@ -4204,7 +4204,7 @@ packages:
     dependencies:
       domelementtype: 2.3.0
       domhandler: 5.0.3
-      entities: 4.3.1
+      entities: 4.5.0
     dev: false
 
   /domain-browser@1.2.0:
@@ -4238,8 +4238,8 @@ packages:
       domhandler: 3.0.0
     dev: false
 
-  /domutils@3.0.1:
-    resolution: {integrity: sha512-z08c1l761iKhDFtfXO04C7kTdPBLi41zwOZl00WS8b5eiaebNpY00HKbztwBq+e3vyqWNwWF3mP9YLUeqIrF+Q==}
+  /domutils@3.1.0:
+    resolution: {integrity: sha512-H78uMmQtI2AhgDJjWeQmHwJJ2bLPD3GMmO7Zja/ZZh84wkm+4ut+IUnUdRa8uCGX88DiVx1j6FRe1XfxEgjEZA==}
     dependencies:
       dom-serializer: 2.0.0
       domelementtype: 2.3.0
@@ -4365,8 +4365,8 @@ packages:
     resolution: {integrity: sha512-p92if5Nz619I0w+akJrLZH0MX0Pb5DX39XOwQTtXSdQQOaYH03S1uIQp4mhOZtAXrxq4ViO67YTiLBo2638o9A==}
     dev: false
 
-  /entities@4.3.1:
-    resolution: {integrity: sha512-o4q/dYJlmyjP2zfnaWDUC6A3BQFmVTX+tZPezK7k0GLSU9QYCauscf5Y+qcEPzKL+EixVouYDgLQK5H9GrLpkg==}
+  /entities@4.5.0:
+    resolution: {integrity: sha512-V0hjH4dGPh9Ao5p0MoRY6BVqtwCjhz6vI5LT8AJ55H+4g9/4vbHx1I54fS0XuclLhDHArPQCiMjDxjaL8fPxhw==}
     engines: {node: '>=0.12'}
     dev: false
 
@@ -4678,10 +4678,11 @@ packages:
       ignore: 5.2.0
     dev: false
 
-  /eslint-plugin-html@7.0.0:
-    resolution: {integrity: sha512-pp/teAJClEnv6GJs2QG6FGZKg9mojn6h0IvZZlTNrbQOyDlYqb0GK4kjjsoH2SEGoH2Ub8EhPUpOxXEcnfO8JQ==}
+  /eslint-plugin-html@8.0.0:
+    resolution: {integrity: sha512-NINLBAXM3mLa3k5Ezr/kNLHAJJwbot6lS7Ro+SUftDw4cA51KMmcDuCf98GP6Q6kTVPY1hIggzskxAdxfUPXSA==}
+    engines: {node: '>=16.0.0'}
     dependencies:
-      htmlparser2: 8.0.1
+      htmlparser2: 9.1.0
     dev: false
 
   /eslint-plugin-import@2.25.4(eslint@8.56.0):
@@ -5919,13 +5920,13 @@ packages:
       entities: 2.2.0
     dev: false
 
-  /htmlparser2@8.0.1:
-    resolution: {integrity: sha512-4lVbmc1diZC7GUJQtRQ5yBAeUCL1exyMwmForWkRLnwyzWBFxN633SALPMGYaWZvKe9j1pRZJpauvmxENSp/EA==}
+  /htmlparser2@9.1.0:
+    resolution: {integrity: sha512-5zfg6mHUoaer/97TxnGpxmbR7zJtPwIYFMZ/H5ucTlPZhKvtum05yiPK3Mgai3a0DyVxv7qYqoweaEd2nrYQzQ==}
     dependencies:
       domelementtype: 2.3.0
       domhandler: 5.0.3
-      domutils: 3.0.1
-      entities: 4.3.1
+      domutils: 3.1.0
+      entities: 4.5.0
     dev: false
 
   /http-cache-semantics@4.1.1:
