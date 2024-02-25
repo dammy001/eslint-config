@@ -41,7 +41,7 @@ importers:
     dependencies:
       eslint-config-standard:
         specifier: 17.1.0
-        version: 17.1.0(eslint-plugin-import@2.25.4)(eslint-plugin-n@16.0.0)(eslint-plugin-promise@6.0.0)(eslint@8.56.0)
+        version: 17.1.0(eslint-plugin-import@2.25.4)(eslint-plugin-n@16.0.0)(eslint-plugin-promise@6.1.1)(eslint@8.56.0)
       eslint-plugin-eslint-comments:
         specifier: ^3.2.0
         version: 3.2.0(eslint@8.56.0)
@@ -59,7 +59,7 @@ importers:
         version: 16.0.0(eslint@8.56.0)
       eslint-plugin-promise:
         specifier: ^6.0.0
-        version: 6.0.0(eslint@8.56.0)
+        version: 6.1.1(eslint@8.56.0)
       eslint-plugin-unicorn:
         specifier: ^51.0.0
         version: 51.0.0(eslint@8.56.0)
@@ -1725,7 +1725,7 @@ packages:
       lru-cache: 10.1.0
       npm-pick-manifest: 9.0.0
       proc-log: 3.0.0
-      promise-inflight: 1.0.1(bluebird@3.7.2)
+      promise-inflight: 1.0.1
       promise-retry: 2.0.1
       semver: 7.5.4
       which: 4.0.0
@@ -3039,6 +3039,7 @@ packages:
 
   /bluebird@3.7.2:
     resolution: {integrity: sha512-XpNj6GDQzdfW+r2Wnn7xiSAd7TM3jzkxGXBGTtWKuSXv1xUV+azxAm8jdWZN06QTQk+2N2XB9jRDkvbmQmcRtg==}
+    dev: false
 
   /bn.js@4.12.0:
     resolution: {integrity: sha512-c98Bf3tPniI+scsdk237ku1Dc3ujXQTSgyiPUDEOe7tRkhrqridvh8klBv0HCEso1OLOYcHuCv/cS6DNxKH+ZA==}
@@ -3278,7 +3279,7 @@ packages:
       minipass-flush: 1.0.5
       minipass-pipeline: 1.2.4
       p-map: 4.0.0
-      promise-inflight: 1.0.1(bluebird@3.7.2)
+      promise-inflight: 1.0.1
       ssri: 10.0.3
       tar: 6.1.11
       unique-filename: 3.0.0
@@ -4530,7 +4531,7 @@ packages:
       - supports-color
     dev: false
 
-  /eslint-config-standard@17.1.0(eslint-plugin-import@2.25.4)(eslint-plugin-n@16.0.0)(eslint-plugin-promise@6.0.0)(eslint@8.56.0):
+  /eslint-config-standard@17.1.0(eslint-plugin-import@2.25.4)(eslint-plugin-n@16.0.0)(eslint-plugin-promise@6.1.1)(eslint@8.56.0):
     resolution: {integrity: sha512-IwHwmaBNtDK4zDHQukFDW5u/aTb8+meQWZvNFWkiGmbWjD6bqyuSSBxxXKkCftCUzc1zwCH2m/baCNDLGmuO5Q==}
     engines: {node: '>=12.0.0'}
     peerDependencies:
@@ -4542,7 +4543,7 @@ packages:
       eslint: 8.56.0
       eslint-plugin-import: 2.25.4(eslint@8.56.0)
       eslint-plugin-n: 16.0.0(eslint@8.56.0)
-      eslint-plugin-promise: 6.0.0(eslint@8.56.0)
+      eslint-plugin-promise: 6.1.1(eslint@8.56.0)
     dev: false
 
   /eslint-import-resolver-node@0.3.6:
@@ -4787,8 +4788,8 @@ packages:
       semver: 7.5.1
     dev: false
 
-  /eslint-plugin-promise@6.0.0(eslint@8.56.0):
-    resolution: {integrity: sha512-7GPezalm5Bfi/E22PnQxDWH2iW9GTvAlUNTztemeHb6c1BniSyoeTrM87JkC0wYdi6aQrZX9p2qEiAno8aTcbw==}
+  /eslint-plugin-promise@6.1.1(eslint@8.56.0):
+    resolution: {integrity: sha512-tjqWDwVZQo7UIPMeDReOpUgHCmCiH+ePnVT+5zVapL0uuHnegBUs2smM13CzOs2Xb5+MHMRFTs9v24yjba4Oig==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     peerDependencies:
       eslint: ^7.0.0 || ^8.0.0
@@ -5751,7 +5752,7 @@ packages:
       source-map: 0.6.1
       wordwrap: 1.0.0
     optionalDependencies:
-      uglify-js: 3.14.5
+      uglify-js: 3.17.4
     dev: true
 
   /hard-rejection@2.1.0:
@@ -8583,6 +8584,15 @@ packages:
     engines: {node: '>= 0.6.0'}
     dev: false
 
+  /promise-inflight@1.0.1:
+    resolution: {integrity: sha512-6zWPyEOFaQBJYcGMHBKTKJ3u6TBsnMFOIZSa6ce1e/ZrrsOlnHRHbabMjLiBYKp+n44X9eUI6VUPaukCXHuG4g==}
+    peerDependencies:
+      bluebird: '*'
+    peerDependenciesMeta:
+      bluebird:
+        optional: true
+    dev: true
+
   /promise-inflight@1.0.1(bluebird@3.7.2):
     resolution: {integrity: sha512-6zWPyEOFaQBJYcGMHBKTKJ3u6TBsnMFOIZSa6ce1e/ZrrsOlnHRHbabMjLiBYKp+n44X9eUI6VUPaukCXHuG4g==}
     peerDependencies:
@@ -8592,6 +8602,7 @@ packages:
         optional: true
     dependencies:
       bluebird: 3.7.2
+    dev: false
 
   /promise-retry@2.0.1:
     resolution: {integrity: sha512-y+WKFlBR8BGXnsNlIHFGPZmyDf3DFMoLhaflAnyZgV6rG6xu+JwesTo2Q9R6XwYmtmwAFCkAk3e35jEdoeh/3g==}
@@ -10323,8 +10334,8 @@ packages:
     engines: {node: '>=14.17'}
     hasBin: true
 
-  /uglify-js@3.14.5:
-    resolution: {integrity: sha512-qZukoSxOG0urUTvjc2ERMTcAy+BiFh3weWAkeurLwjrCba73poHmG3E36XEjd/JGukMzwTL7uCxZiAexj8ppvQ==}
+  /uglify-js@3.17.4:
+    resolution: {integrity: sha512-T9q82TJI9e/C1TAxYvfb16xO120tMVFZrGA3f9/P4424DNu6ypK103y0GPFVa17yotwSyZW5iYXgjYHkGrJW/g==}
     engines: {node: '>=0.8.0'}
     hasBin: true
     requiresBuild: true
