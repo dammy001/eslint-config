@@ -19,7 +19,7 @@ importers:
         version: 8.1.2
       typescript:
         specifier: 5.3.3
-        version: 5.4.3
+        version: 5.3.3
 
   packages/all:
     dependencies:
@@ -103,7 +103,7 @@ importers:
         version: 7.28.0(eslint@8.57.0)
       eslint-plugin-react-hooks:
         specifier: ^4.3.0
-        version: 4.3.0(eslint@8.57.0)
+        version: 4.6.0(eslint@8.57.0)
       react:
         specifier: '>=16.8.0'
         version: 16.8.0
@@ -113,7 +113,7 @@ importers:
         version: 8.57.0
       typescript:
         specifier: 5.3.3
-        version: 5.4.3
+        version: 5.3.3
 
   packages/typescript:
     dependencies:
@@ -4755,15 +4755,6 @@ packages:
       eslint: 8.57.0
     dev: false
 
-  /eslint-plugin-react-hooks@4.3.0(eslint@8.57.0):
-    resolution: {integrity: sha512-XslZy0LnMn+84NEG9jSGR6eGqaZB3133L8xewQo3fQagbQuGt7a63gf+P1NGKZavEYEC3UXaWEAA/AqDkuN6xA==}
-    engines: {node: '>=10'}
-    peerDependencies:
-      eslint: ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0-0
-    dependencies:
-      eslint: 8.57.0
-    dev: false
-
   /eslint-plugin-react-hooks@4.6.0(eslint@8.57.0):
     resolution: {integrity: sha512-oFc7Itz9Qxh2x4gNHStv3BqJq54ExXmfC+a1NjAta66IAN87Wu0R/QArgIS9qKzX3dXKPI9H5crl9QchNMY9+g==}
     engines: {node: '>=10'}
@@ -6753,7 +6744,7 @@ packages:
       strong-log-transformer: 2.1.0
       tar: 6.1.11
       temp-dir: 1.0.0
-      typescript: 5.4.3
+      typescript: 5.3.3
       upath: 2.0.1
       uuid: 9.0.0
       validate-npm-package-license: 3.0.4
@@ -10277,7 +10268,6 @@ packages:
     resolution: {integrity: sha512-pXWcraxM0uxAS+tN0AG/BF2TyqmHO014Z070UsJ+pFvYuRSq8KH8DmWpnbXe0pEPDHXZV3FcAbJkijJ5oNEnWw==}
     engines: {node: '>=14.17'}
     hasBin: true
-    dev: false
 
   /typescript@5.4.3:
     resolution: {integrity: sha512-KrPd3PKaCLr78MalgiwJnA25Nm8HAmdwN3mYUYZgG/wizIo9EainNVQI9/yDavtVFRN2h3k8uf3GLHuhDMgEHg==}
