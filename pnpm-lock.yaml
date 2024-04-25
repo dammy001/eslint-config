@@ -47,7 +47,7 @@ importers:
         version: 3.2.0(eslint@8.57.0)
       eslint-plugin-html:
         specifier: ^8.0.0
-        version: 8.0.0
+        version: 8.1.0
       eslint-plugin-import:
         specifier: ^2.25.4
         version: 2.29.1(@typescript-eslint/parser@6.0.0)(eslint-import-resolver-typescript@3.5.2)(eslint@8.57.0)
@@ -4797,8 +4797,8 @@ packages:
       ignore: 5.2.0
     dev: false
 
-  /eslint-plugin-html@8.0.0:
-    resolution: {integrity: sha512-NINLBAXM3mLa3k5Ezr/kNLHAJJwbot6lS7Ro+SUftDw4cA51KMmcDuCf98GP6Q6kTVPY1hIggzskxAdxfUPXSA==}
+  /eslint-plugin-html@8.1.0:
+    resolution: {integrity: sha512-5bRZQwxZew2Yo9Fa8diz2C9RmzIw9Gs4yzmmjUcpuzhdLW8aVcDtYzEHhNNdt01Z0m4AzSJNuY63RXvzStvDgA==}
     engines: {node: '>=16.0.0'}
     dependencies:
       htmlparser2: 9.1.0
