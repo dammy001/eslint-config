@@ -20,7 +20,7 @@
     },
     "devDependencies": {
         "eslint": "8.57.1",
-        "typescript": "5.5.4"
+        "typescript": "5.7.2"
     },
     "publishConfig": {
         "access": "public"
