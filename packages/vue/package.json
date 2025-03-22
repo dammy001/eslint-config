@@ -23,7 +23,7 @@
         "eslint": ">=7.4.0"
     },
     "devDependencies": {
-        "eslint": "8.57.1"
+        "eslint": "9.23.0"
     },
     "publishConfig": {
         "access": "public"
